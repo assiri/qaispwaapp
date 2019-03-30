@@ -1,14 +1,9 @@
 {
-  "main.js": "/static/js/main.fe96712c.chunk.js",
-  "main.js.map": "/static/js/main.fe96712c.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fef73312.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fef73312.js.map",
-  "static/css/2.640e4836.chunk.css": "/static/css/2.640e4836.chunk.css",
-  "static/js/2.e1f1c585.chunk.js": "/static/js/2.e1f1c585.chunk.js",
-  "static/js/2.e1f1c585.chunk.js.map": "/static/js/2.e1f1c585.chunk.js.map",
-  "index.html": "/index.html",
-  "icon": "/images/icons/icon-72x72.png",
-  "precache-manifest.ff2d76a23b6cfc0ede1da7957fc5dbcd.js": "/precache-manifest.ff2d76a23b6cfc0ede1da7957fc5dbcd.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.640e4836.chunk.css.map": "/static/css/2.640e4836.chunk.css.map"
+  "main.js": "/qaispwaapp/static/js/main.fe96712c.chunk.js",
+  "runtime~main.js": "/qaispwaapp/static/js/runtime~main.fef73312.js",
+  "static/css/2.7c880d99.chunk.css": "/qaispwaapp/static/css/2.7c880d99.chunk.css",
+  "static/js/2.e1f1c585.chunk.js": "/qaispwaapp/static/js/2.e1f1c585.chunk.js",
+  "index.html": "/qaispwaapp/index.html",
+  "precache-manifest.2dc49f123fecf712bdee1a1b761fbdd9.js": "/qaispwaapp/precache-manifest.2dc49f123fecf712bdee1a1b761fbdd9.js",
+  "service-worker.js": "/qaispwaapp/service-worker.js"
 }
