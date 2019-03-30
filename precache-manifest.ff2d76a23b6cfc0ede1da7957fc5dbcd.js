@@ -18,5 +18,8 @@ self.__precacheManifest = [
   {
     "revision": "265018e6dda822633003773ba8a24e73",
     "url": "/qaispwaapp/index.html"
+  },
+  {
+    "url": "/qaispwaapp/images/icons/icon-72x72.png"
   }
 ];
