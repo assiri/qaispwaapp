@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/qaispwaapp/static/js/runtime~main.ee5eca7c.js"
   },
   {
-    "revision": "815d62b0aba3c6cb4340",
-    "url": "/qaispwaapp/static/js/main.f27b52a2.chunk.js"
+    "revision": "c328de9d6e30fac7244e",
+    "url": "/qaispwaapp/static/js/main.91a8b1b6.chunk.js"
   },
   {
     "revision": "a183812656716bafad26",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/qaispwaapp/static/css/2.14860cbc.chunk.css"
   },
   {
-    "revision": "5db85687916b2f879f73241950c84e34",
+    "revision": "f333c0962fd6b99b08f0fc2131508b4c",
     "url": "/qaispwaapp/index.html"
   }
 ];
