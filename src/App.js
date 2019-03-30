@@ -3,7 +3,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import { openDB } from 'idb'; //, deleteDB, wrap, unwrap 
-import {config} from './config'
+import {config,user} from './config'
 const arAea = ["اختر", "مكة", "عسير", "الجوف", "الرياض", "الشمالية", "الباحة", "المدينة", "حائل", "نجران", "القصيم", "تبوك", "الشرقية", "جازان"];
 const groups = ["اختر", "آل زغلول بن هازم", "آل السعيدي", "آل سمينة", "آل سالم بن هازم", "آل عاطف", "آل علي بن سويد", "آل يعلى", "آل ذمسوده", "صدر حسوة", "صدرة قيس", "البتيلة", "الذروة", "الربع", "الرحوب", "سرو المرار", "الصحبة", "المجرعة", "المسابلة"];
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
 
     firebase.initializeApp(config);
     // firebase.auth().onAuthStateChanged(user => {if(async (user)){
-    firebase.auth().signInWithEmailAndPassword("assiri@hotmail.com", "ibra8374").then(async (user) => {
+    firebase.auth().signInWithEmailAndPassword(user.email, user.password).then(async (user) => {
       const snapshot = await firebase.firestore().collection('members').get()
       const db = await snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
       for (let rec of db) {
