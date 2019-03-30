@@ -1,6 +1,8 @@
 {
   "short_name": "QaisApp",
   "name": "QaisApp",
+  "lang": "ar",
+  "dir": "rtl",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
@@ -43,7 +45,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/qaispwaapp",
+  "start_url": "/qaispwaapp/index.html",
   "scope": "/qaispwaapp",
   "display": "standalone",
   "theme_color": "#000000",
