@@ -21,5 +21,8 @@ self.__precacheManifest = [
   },
   {
     "url": "/qaispwaapp/images/icons/icon-72x72.png"
+  },
+  {
+  "url" : "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js"
   }
 ];
