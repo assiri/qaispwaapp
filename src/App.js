@@ -3,9 +3,9 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import { openDB } from 'idb'; //, deleteDB, wrap, unwrap 
-import {config} from '../config'
+import {config} from './config'
 const arAea = ["اختر", "مكة", "عسير", "الجوف", "الرياض", "الشمالية", "الباحة", "المدينة", "حائل", "نجران", "القصيم", "تبوك", "الشرقية", "جازان"];
-const groups = ["اختر", "آل آمزغلول", "آل السعيدي", "آل سمينة", "آل سالم بن هازم", "آل عاطف", "آل علي بن سويد", "آل يعلى", "آل ذمسوده", "صدر حسوة", "صدرة قيس", "البتيلة", "الذروة", "الربع", "الرحوب", "سرو المرار", "الصحبة", "المجرعة", "المسابلة"];
+const groups = ["اختر", "آل زغلول بن هازم", "آل السعيدي", "آل سمينة", "آل سالم بن هازم", "آل عاطف", "آل علي بن سويد", "آل يعلى", "آل ذمسوده", "صدر حسوة", "صدرة قيس", "البتيلة", "الذروة", "الربع", "الرحوب", "سرو المرار", "الصحبة", "المجرعة", "المسابلة"];
 class App extends Component {
   state = { orgData: null, filterToMatch: '', filter: null };
   async  getRemote() {
